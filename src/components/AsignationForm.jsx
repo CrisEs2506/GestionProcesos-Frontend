@@ -89,10 +89,6 @@ function AsignationForm() {
                     Agregar Bloqueo
                 </button>
             </form>
-
-            <div>
-                {JSON.stringify(data)}
-            </div>
         </div>
 
 

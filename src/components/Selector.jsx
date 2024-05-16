@@ -9,7 +9,7 @@ function Selector() {
     const handleChange = (e) => {
         setAlgoritmo(e.target.value);
         if (e.target.value !== '4') {
-            setQuantum('0');
+            setQuantum('3');
         }
     };
 
