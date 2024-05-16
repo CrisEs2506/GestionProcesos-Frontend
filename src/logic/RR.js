@@ -32,7 +32,6 @@ export default function RR(quantum, arrayProcesos) {
         if (tick == 0 || plan > quantum) {
           planificador_data.push({ x: "Pl", y: [tick, tick + 1] });
           isProcesoEnEjecucion = true;
-          console.log(plan + "  tick: " + tick);
           plan = 0;
         }
   

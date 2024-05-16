@@ -1,13 +1,15 @@
 import { useState } from 'react';
 
+import Prepared from './Prepared';
+
 function Selector() {
     const [algoritmo, setAlgoritmo] = useState('');
-    const [quantum, setQuantum] = useState('');
+    const [quantum, setQuantum] = useState('1');
 
     const handleChange = (e) => {
         setAlgoritmo(e.target.value);
         if (e.target.value !== '4') {
-            setQuantum('');
+            setQuantum('0');
         }
     };
 
